@@ -11,8 +11,9 @@
 2) Запустите веб-сервер: php -S localhost:8080.
 3) Откройте браузер и перейдите по адресу http://localhost:8080 для доступа к первому заданию.
 4) Перейдите по адресу http://localhost:8080/task2.php для доступа ко второму заданию.
-5) Перейдите по адресу http://localhost:8080/operator.php для доступа к третьему и четвёртому заданию.
-6) Перейдите по адресу http://localhost:8080/homework.php для доступа к домашнему заданию.
+5) Перейдите по адресу http://localhost:8080/task3.php для доступа к третьему заданию.
+6) Перейдите по адресу http://localhost:8080/task4.php для доступа к четвёртому заданию.
+7) Перейдите по адресу http://localhost:8080/task5.php для доступа к пятому заданию.
 
 ## Задания
 __1.1. Задание №1 Цикл For__
@@ -138,11 +139,20 @@ for ($i = 0; $i < count($files); $i++) {
 
 __1.1. Задание №1 Цикл For__
 
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/9a8704f9-29b8-455b-8daf-9dbad23af892)
+
 __1.2. Задание №2 Цикл while__
+
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/e61168ee-07c7-42c9-9a03-2265ffd520be)
 
 __1.3. Задание №3 Определение массива__
 
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/dd4e0f95-8da9-42eb-b80c-676c6d7fb29a)
+
+
 __1.4. Задание №4 Использование массивов и функций__
+
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/eb79e4fb-2fd7-473f-94f2-cb7389428427)
 
 __Дополнительное задание__
 
@@ -151,3 +161,8 @@ __1.5. Задание №5 Работа с файловой системой__
 
 ## Список использованных источников
 
+https://qna.habr.com/q/275812
+
+https://www.php.net/manual/ru/functions.user-defined.php
+
+https://www.php.net/manual/en/function.array-column.php
