@@ -129,7 +129,7 @@ for ($i = 0; $i < count($files); $i++) {
  if (($files[$i] != ".") && ($files[$i] != "..")) {
  // Получаем путь к изображению
  $path = $dir . $files[$i]; ?>
- <!-- Выведите картинку на экран ->
+ <!-- Выведите картинку на экран -->
  <?php
  }
 }
@@ -158,6 +158,10 @@ __Дополнительное задание__
 
 __1.5. Задание №5 Работа с файловой системой__
 
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/c37e5f93-780e-431b-a612-0c913cfd6f71)
+
+![image](https://github.com/S1ngle777/Lab_3_PHP/assets/128795707/fbc51895-e395-40d1-9d9b-48ee1026df12)
+
 
 ## Список использованных источников
 
@@ -165,4 +169,6 @@ https://qna.habr.com/q/275812
 
 https://www.php.net/manual/ru/functions.user-defined.php
 
-https://www.php.net/manual/en/function.array-column.php
+https://www.php.net/manual/ru/function.array-column.php
+
+https://www.php.net/manual/ru/function.scandir
