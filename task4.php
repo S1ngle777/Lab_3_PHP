@@ -53,15 +53,11 @@ $transactions = [
     foreach ($transactions as $transaction) { ?>
         <tr>
             <!-- Выведите на экран данные о транзакциях -->
-            <?php
-            echo "<tr>";
-            echo "<td>" . $transaction['transaction_id'] . "</td>";
-            echo "<td>" . $transaction['transaction_date'] . "</td>";
-            echo "<td>" . $transaction['transaction_amount'] . "</td>";
-            echo "<td>" . $transaction['transaction_description'] . "</td>";
-            echo "<td>" . $transaction['merchant_name'] . "</td>";
-            echo "</tr>";
-            ?>
+            <td><?php echo $transaction['transaction_id']; ?></td>
+            <td><?php echo $transaction['transaction_date']; ?></td>
+            <td><?php echo $transaction['transaction_amount']; ?></td>
+            <td><?php echo $transaction['transaction_description']; ?></td>
+            <td><?php echo $transaction['merchant_name']; ?></td>
         </tr>
     <?php }
     function calculateTotalAmount($transactions)

@@ -40,9 +40,10 @@
                 $path = $dir . $files[$i]; ?>
 
                 <!-- Выведите картинку на экран -->
-        <?php
 
-                echo "<img src='$path' alt='image' width='300' height='200'>";
+
+                <img src='<?php echo $path; ?>' alt='image' width='300' height='200'>
+        <?php
             }
         }
         ?>
